@@ -3,7 +3,7 @@ import streamlit as st
 
 client = genai.Client (api_key='AIzaSyA3uvDeUuRiY-E4Zcl2JOMSWOSxJONcwfc')
 
-st.title("My First AI Agent")
+st.title("Finance Advisor")
 st.write("This app demonstrates a conversational agent.")
 
 user_input = st.text_input("How can I help you.")
